@@ -19,6 +19,74 @@ body {
     width: 100%;
 }
 
+
+/*----------------------------- ABOUT US-----------------------------*/
+.gridContainerAboutUs{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  gap: 10px;
+  margin: 40px;
+}
+
+.perfil1{
+  grid-area: 1/1/2/2;
+  background-color: rgb(250, 250, 250, 50%);
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  text-align: center;
+}
+.perfil2{
+  grid-area: 2/1/3/2;  
+  background-color: rgb(250, 250, 250, 50%);
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+ text-align: center;
+}
+.perfil3{
+  grid-area: 3/1/4/2;
+  background-color: rgb(250, 250, 250, 50%);
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  text-align: center;
+}
+.perfil4{
+  grid-area: 4/1/5/2;
+  background-color: rgb(250, 250, 250, 50%);
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  text-align: center;
+}
+.perfil5{
+  grid-area: 5/1/6/2;
+  background-color: rgb(250, 250, 250, 50%);
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  text-align: center;
+}
+
+.fotosPerfil{
+  border-radius: 5px;
+  width: 200px;
+}
+
+/*----------------------------- FIN ABOUT US-----------------------------*/
+
+
+.tituloHeader{
+  color: white;
+  margin-left: 5px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+
+
 /*----------------------------- PRINCIPAL-----------------------------*/
 #principal-galeria{
   display: grid;
@@ -792,6 +860,75 @@ a:hover { color: white;  text-decoration: none; }
 /* TABLET */
 @media screen and (min-width: 481px) and ( max-width:768px)  {
   
+
+  
+/*----------------------------- ABOUT US-----------------------------*/
+.gridContainerAboutUs{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  gap: 10px;
+  margin: 40px;
+}
+
+.perfil1{
+  grid-area: 1/1/2/2;
+  background-color: rgb(250, 250, 250, 50%);
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  text-align: center;
+}
+.perfil2{
+  grid-area: 2/1/3/2;  
+  background-color: rgb(250, 250, 250, 50%);
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+ text-align: center;
+}
+.perfil3{
+  grid-area: 3/1/4/2;
+  background-color: rgb(250, 250, 250, 50%);
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  text-align: center;
+}
+.perfil4{
+  grid-area: 4/1/5/2;
+  background-color: rgb(250, 250, 250, 50%);
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  text-align: center;
+}
+.perfil5{
+  grid-area: 5/1/6/2;
+  background-color: rgb(250, 250, 250, 50%);
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  text-align: center;
+}
+
+.fotosPerfil{
+  border-radius: 5px;
+  width: 300px;
+}
+
+/*----------------------------- FIN ABOUT US-----------------------------*/
+
+
+
+
+  .tituloHeader{
+    color: white;
+    margin-left: 25px;
+    font-size: 50px;
+    font-weight: bolder;
+  }
+
   /*-----------------------------RESERVATION-----------------------------*/
   fieldset{
     background-color: rgb(250, 250, 250, 50%);
@@ -1181,6 +1318,73 @@ a:hover { color: white;  text-decoration: none; }
 
 /* ORDENADOR */
 @media screen and (min-width: 769px) {
+
+  /*----------------------------- ABOUT US-----------------------------*/
+.gridContainerAboutUs{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+  margin: 40px;
+}
+
+.perfil1{
+  grid-area: 1/1/2/2;
+  background-color: rgb(250, 250, 250, 50%);
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  text-align: center;
+}
+.perfil2{
+  grid-area: 1/2/2/4;  
+  background-color: rgb(250, 250, 250, 50%);
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+ text-align: center;
+}
+.perfil3{
+  grid-area: 1/4/2/5;
+  background-color: rgb(250, 250, 250, 50%);
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  text-align: center;
+}
+.perfil4{
+  grid-area: 2/1/3/3;
+  background-color: rgb(250, 250, 250, 50%);
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  text-align: center;
+}
+.perfil5{
+  grid-area: 2/3/3/5;
+  background-color: rgb(250, 250, 250, 50%);
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  text-align: center;
+}
+
+.fotosPerfil{
+  border-radius: 5px;
+  width: 200px;
+  height: 200px;
+}
+
+.trabajo{
+  font-weight: bolder;
+}
+
+
+
+
+/*----------------------------- FIN ABOUT US-----------------------------*/
+
+
 
   .tituloHeader{
     color: white;
